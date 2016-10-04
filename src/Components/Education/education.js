@@ -4,9 +4,12 @@ const Education = React.createClass({
 	render() {
 		return (
 			<div className='col-6'>
-				Dev BootCamp
-				UCSC
-				UC Santa Clara
+				<h3>Education</h3>
+				<div>
+					Dev BootCamp
+					UCSC
+					UC Santa Clara
+				</div>
 			</div>
 		);
 	}

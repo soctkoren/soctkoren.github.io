@@ -1,0 +1,131 @@
+{
+  "basics": {
+    "name": "John Kim",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "joimkim@gmail.com",
+    "phone": "(925) 337-3551",
+    "website": "http://soctkoren.github.io",
+    "summary": "I'm a highly driven software engineer from a program management background. I'm quick to learning new technologies and I do not shy away from new challenges. I believe that my drive and knowledge will be a great addition to the engineering team. ",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/john-kim-b448a022"
+      }
+      ,{
+        "network": "Github",
+        "url": "https://github.com/soctkoren"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Green Circuits",
+      "position": "Technical Program Manager",
+      "website": "http://www.greencircuits.net/",
+      "startDate": "2012-07-01",
+      "endDate": "2016-10-01",
+      "summary": "I was the primary interface between customers and our engineering team.",
+      "highlights": [
+        "Awarded A-Team member",
+        "Certified ISO-13845 internal auditor",
+        "Setup sales team and developed company website"
+      ]
+    },
+    {
+      "company": "Favorie",
+      "position": "Software Engineer Intern",
+      "website": "http://favorie.wixsite.com/home",
+      "startDate": "2015-08-01",
+      "endDate": "2016-01-01",
+      "summary": "I worked as a Frontend Engineer for an iOS app called the Novelist.",
+      "highlights": [
+        "Was featured at Techcrunch Disrupt Hackathon",
+        "Worked on development and Marketing for ios app called AT"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Palo Alto iOS Meetups",
+      "position": "Organizer",
+      "website": "http://www.meetup.com/Palo-Alto-iOS-Developers/",
+      "startDate": "2015-10-01",
+      "endDate": "2016-08-01",
+      "summary": "Oragnized meetup events and hosted talks regarding iOS deveopment."
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Santa Cruz",
+      "area": "Business Management Economics",
+      "studyType": "Bachelor",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "3.0"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Techcrunch Disrupt - Best Hack with Esri Techonology",
+      "date": "2016-09-14",
+      "awarder": "Techcrunch Disrupt and Esri",
+      "summary": "Best use of Esri ArcGIS mapping technology wins $5,000! ($2500 cash, plus $2500 valued ArcGIS Online subscription)."
+    },
+    {
+      "title": "Chime Hack 3",
+      "date": "2016-08-27",
+      "awarder": "Facebook and Global Citizenship",
+      "summary": "Global Citizenship (Sponsored by Kleiner Perkins Caufield & Byers) $5,000 cash prize and an interview (for each team member*) to be a KP Fellow with a KPCB portfolio company "
+    },
+    {
+      "title": "Hack Against Violence",
+      "date": "2016-09-18",
+      "awarder": "Runway",
+      "summary": "Space at Runway, a disruptive incubator and co-working space, located in the Twitter building in downtown San Francisco.a disruptive incubator and co-working space, located in the Twitter building in downtown San Francisco. "
+    }
+  ],
+  "publications": [
+    {
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
+      "releaseDate": "2014-10-01",
+      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
+      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Expert",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React",
+        "Ruby On rails"
+      ]
+    },
+    {
+      "name": "PCBA - Program Management",
+      "level": "Expert",
+      "keywords": [
+        "Product management",
+        "Technical PCBA knowledge",
+        "Vendor and Customer management"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}

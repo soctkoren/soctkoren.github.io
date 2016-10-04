@@ -1,0 +1,15 @@
+.HeroContainer {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../../../public/hero.jpeg");
+	background-size: cover;
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.profileContainer {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}

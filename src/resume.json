@@ -94,6 +94,57 @@
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
     }
   ],
+  "projects": [
+    {
+      "name": "Secret Dot Club",
+      "description": "This is a winning project for TechCrunch Distrupt Hackathon 2016. The Secret Dot club uses Esri's geotagging features and IBM Watson Tone Analyzer to give thes users a unique map view of where excited and entertaining areas are",
+      "technology": ["iOS", "ruby-on-rails", "esri", "IBM Watson"],
+      "img": "../public/secret.png",
+      "url": "http://devpost.com/software/secretclient"
+    },
+    {
+      "name": "The Partner",
+      "description": "Partner analyzes data from IRS 990 Filings for nonprofit organizations from Amazon Web Services and visually displays information about an organization's expenses, sources of revenue, and significant contributions to the community.",
+      "technology": ["React", "Redux", "Ruby-on-Rails", "D3", "Map Box", "AWS"],
+      "img": "../public/partner.png",
+      "url": "https://github.com/assunta09/PartnerClient"
+    },
+    {
+      "name": "Dear Ally",
+      "description": "This is a winning hackathon project from Chime Hack 3 hosted by Facebook. The project creates a safe chat room for victims of violence, and connects them to professionals that can give them immediate assistance.",
+      "technology": ["Sinatra", "Jquery", "Ajax", "Twillo"],
+      "img": "../public/dearally.jpg",
+      "url": "http://devpost.com/software/dear-ally"
+    },
+    {
+      "name": "The Watch",
+      "description": "This is a winning hackathon project from Hack Against Violence hosted by Runway and DBC. The Watch scraps Twitter for tweets that match keywords that indicate users that show signs of suicide and puts them on our watch list",
+      "technology": ["Ruby-on-Rails", "Jquery", "MapBox", "Twillo", "Ingenico", "IBM Watson"],
+      "img": "../public/theWatch.png",
+      "url": ""
+    },
+    {
+      "name": "Novelist",
+      "description": "A solo passion project. The Novelist create community generated stories. Users can vote on the next sentence, and after a voting period the sentence gets locked in.",
+      "technology": ["Ruby-on-Rails", "Jquery", "Ajax", "Unsplash"],
+      "img": "../public/novelist.png",
+      "url": "https://young-harbor-13649.herokuapp.com/stories"
+    },
+    {
+      "name": "Foodie",
+      "description": "This project was featured at TechCrunch Distrup 2015. Tinder meets Yelp the app helps users decide on to eat quickly",
+      "technology": ["iOS", "obj-c", "Yelp"],
+      "img": "../public/foodie.png",
+      "url": "https://techcrunch.com/2015/09/20/foodie-wants-to-help-pick-your-lunch-with-a-tinder-like-swipe-system/"
+    },
+    {
+      "name": "El Matador",
+      "description": "A passion project on the Andriod platform. El Matador is a game where you dodge bulls",
+      "technology": ["Android", "LibGDX"],
+      "img": "../public/matador.png",
+      "url": "https://play.google.com/store/apps/details?id=net.alcuria.matador&hl=en"
+    }
+  ],
   "skills": [
     {
       "name": "Web Development",

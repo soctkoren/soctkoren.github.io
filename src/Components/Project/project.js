@@ -1,4 +1,6 @@
 import React from 'react';
+import ProjectDetails from './projectdetails.js';
+import d from '../../resume.json';
 
 const Project = React.createClass({
 	render () {
@@ -6,16 +8,9 @@ const Project = React.createClass({
 			<div className="col-6">
 				<h3 className="Title">Projects</h3>
 				<div className="">
-					<ul>
-						<li>The Partner</li>
-						<li>Novelist</li>
-						<li>The Watch</li>
-						<li>Secret Dot Club</li>
-						<li>Dear Ally</li>
-						<li>Foodie</li>
-						<li>El Matador</li>
-						<li>AlphaToLaunch</li>
-					</ul>
+					{d.projects.map(function(project) {
+						return <ProjectDetails project={project}/>	
+					})}
 				</div>
 			</div>
 		);

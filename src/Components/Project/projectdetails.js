@@ -1,17 +1,11 @@
 import React from 'react';
+import './styles.css';
 
 const ProjectDetails = React.createClass({
-	render () {
+	
+	render () {	
 		return (
-			<div>
-				{console.log(this.props.project)}
-				<div>
-					{this.props.project.name}
-				</div>
-				<div>
-					{this.props.project.description}
-				</div>
-			</div>
+			<div></div>
 		)
 	}
 });

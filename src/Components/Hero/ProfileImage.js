@@ -3,8 +3,7 @@ import React from 'react';
 var ProfileImage = React.createClass ({
 	render () {
 		return (
-			<div>
-		
+			<div className="ProfileImage">
 			</div>
 		);
 	}

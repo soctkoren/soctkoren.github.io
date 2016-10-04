@@ -8,8 +8,37 @@
   justify-content: center;
 }
 
-.profileContainer {
+.ProfileSubTitle {
+	padding: 20px 20px 0 20px;
+}
+
+.ProfileImage {
+	margin: 0 auto;
 	width: 100px;
 	height: 100px;
-	background-color: red;
+	border-radius: 50px;
+	background-image: url("../../../public/john.jpg");
+	background-size: cover;
+	border: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.profileContainer {
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.profileContainer h1, h2, h3 {
+	color: #5B5B5B;
+}
+
+.DescriptionContainer {
+	display: flex;
+	background-color: #5B5B5B;
+	justify-content: center;
+}
+
+.icons {
+	padding: 10px;
+	margin: 0 10px 0 10px;
 }

@@ -10,8 +10,14 @@ const Header = React.createClass ({
 					<h3>{d.basics.name}</h3>
 					<p>{d.basics.label}</p>
 				</div>
-				<div className="col-3 headerAddress">address</div>
-				<div className="col-3 headerContact">contact</div>
+				<div className="col-3 headerAddress">
+					<p>762 Modern Ice Dr.</p>
+					<p>95112, San Jose CA </p>
+				</div>
+				<div className="col-3 headerContact">
+					<p></p>
+					<p></p>
+				</div>
 				<div className="col-3 headerWebsite">website</div>
 			</div>
 		);

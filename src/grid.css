@@ -7,7 +7,7 @@
 /* line 19, ../sass/grid.scss */
 .container {
   margin: auto;
-  width: 1170px; }
+  width: 1000px; }
 
 /* line 24, ../sass/grid.scss */
 .row {
@@ -175,7 +175,7 @@
   	zoom: 1; /* ie 6/7 */ }
 
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1000px) {
   /* line 111, ../sass/grid.scss */
   .container {
     width: 970px; }

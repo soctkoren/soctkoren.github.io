@@ -8,28 +8,31 @@ import Education from '../Education/education.js';
 import Award from '../Award/award.js';
 import Hobby from '../Hobby/hobby.js';
 import Volunteer from '../Volunteer/volunteer.js';
+import './styles.css'
 import '../../grid.css';
 
 const Resume = React.createClass ({
 	render() {
 		return (
-			<div className='container'>
-				<Header />
-				<div className="row segment1">
-					<Mission />
-					<Project />
-				</div>
-				<div className="row segment2">
-					<Skill />
-					<WorkExperience />
-				</div>
-				<div className="row segment3">
-					<Education />
-					<Award />
-				</div>
-				<div className="row segment4">
-					<Volunteer />
-					<Hobby />
+			<div className="container resume-container">
+				<div className="resume">
+						<Header />
+					<div className="row segment1">
+						<Mission />
+						<Project />
+					</div>
+					<div className="row segment2">
+						<Skill />
+						<WorkExperience />
+					</div>
+					<div className="row segment3">
+						<Education />
+						<Award />
+					</div>
+					<div className="row segment4">
+						<Volunteer />
+						<Hobby />
+					</div>
 				</div>
 			</div>
 		);

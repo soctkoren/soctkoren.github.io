@@ -1,0 +1,74 @@
+.headerContainer {
+	padding-bottom: 8%;
+}
+
+.headerName p {
+	margin-top: 4px;
+}
+.headerName h3 {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.headerAddress p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.headerAddress h3 {
+	margin-bottom: 4px;
+}
+
+.headerContact p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.headerContact a {
+	color: black;
+  text-decoration: none;
+}
+
+.headerContact a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.headerWebsite p {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+.headerWebsite a {
+	color: black;
+  text-decoration: none;
+}
+
+.headerWebsite a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+.offseg {
+	color: #bdbdbd;
+	font-size: 0.8em;
+}
+
+.offseg p {}
+
+.align-right {
+	text-align: left;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.align-right {
+		text-align: center;
+	}
+
+}
+

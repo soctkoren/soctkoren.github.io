@@ -187,6 +187,8 @@
   /* line 117, ../sass/grid.scss */
   .visible-md {
     display: none; } }
+
+
 @media screen and (max-width: 992px) {
   /* line 124, ../sass/grid.scss */
   *[class^="col-"] {

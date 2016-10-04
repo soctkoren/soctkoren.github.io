@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  color: #696969;
 }
 
 .App-logo {
@@ -19,8 +20,20 @@
   font-size: large;
 }
 
+.Title {
+  border-style: solid;
+  border-width: 1.5px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: #bdbdbd;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 body {
-  background-color: #E2E1E0
+  background-color: white;
 }
 
 @keyframes App-logo-spin {

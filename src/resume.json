@@ -57,12 +57,25 @@
   ],
   "education": [
     {
+      "institution": "Dev Bootcamp",
+      "area": "Full Stack Engineering Trainning",
+      "studyType": "Certificate",
+      "startDate": "2016-06-01",
+      "endDate": "2016-09-30"
+    },
+    {
+      "institution": "Santa Clara University",
+      "area": "Advanced Accounting Proficiency",
+      "studyType": "Certificate",
+      "startDate": "2010-09-01",
+      "endDate": "2011-07-01"
+    },
+    {
       "institution": "University of Santa Cruz",
       "area": "Business Management Economics",
       "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "3.0"
+      "startDate": "2008-09-22",
+      "endDate": "2010-06-11"
     }
   ],
   "awards": [

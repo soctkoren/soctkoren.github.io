@@ -21,7 +21,7 @@
 @media screen and (max-width: 999px) {
 
   .resume {
-    height: 2700px; }
+    height: 2800px; }
 }
 @media screen and (max-width: 740px) {
   /* line 140, ../sass/grid.scss */
@@ -39,6 +39,14 @@
 @media screen and (max-width: 758px) {
   /* line 140, ../sass/grid.scss */
   .resume {
-    height: 3200px; }
+    height: 3300px; 
+    background-color: #f6f6f6;
+    box-shadow: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+  }
 
 }

@@ -14,15 +14,17 @@ const Header = React.createClass ({
 				</div>
 				<div className="col-3 headerAddress">
 					<div className="col-4">
-						<p>Address</p>
+						<p>Email</p>
+						<p>Phone</p>
 					</div>
 					<div className="col-7 offseg">
-						<p>762 Modern Ice 95112, San Jose CA </p>
+						<p>joimkim@gmail.com </p>
+						<span className="phone"><p>925-337-3551 </p></span>
 					</div>
 				</div>
 				<div className="col-3 headerContact">
 					<div className="col-4">
-						<p>Contact</p>
+						<p>Social</p>
 					</div>
 					<div className="col-8 offseg">
 						<div className="align-right">

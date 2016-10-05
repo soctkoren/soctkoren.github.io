@@ -19,13 +19,13 @@ const Resume = React.createClass ({
 						<Header />
 					<div className="row segment1">
 						<Mission />
-						<Project />
+						<Skill />
 					</div>
 					<div className="row segment2">
-						<Skill />
-						<WorkExperience />
+						<Project />
 					</div>
 					<div className="row segment3">
+						<WorkExperience />
 						<Education />
 						<Award />
 					</div>

@@ -8,7 +8,7 @@ const Mission = React.createClass ({
 		return (
 			<div className='col-6'>
 				<h3 className="Title">Personal Statment</h3>
-				<div className="">
+				<div className="TitleStatement">
 					<p>{d.basics.summary}</p>
 				</div>
 			</div>

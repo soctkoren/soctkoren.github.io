@@ -31,7 +31,7 @@ const Header = React.createClass ({
 					        className='super-crazy-colors'
 					        name='github'
 					        size='1x'
-					      /><a href="https://github.com/soctkoren"><span> : soctkoren</span></a>
+					      /><a href={d.basics.profiles[1].url}><span> : soctkoren</span></a>
 							</p>
 							<p>
 					      <FontAwesome
@@ -39,7 +39,7 @@ const Header = React.createClass ({
 					        name='linkedin-square'
 					        size='1x'
 					        style={{ color: '#0077b5' }}
-					      /><a href="https://www.linkedin.com/in/john-kim-b448a022"><span> : johnimyeobkim</span></a>
+					      /><a href={d.basics.profiles[0].url}><span> : soctkoren</span></a>
 							</p>
 						</div>
 					</div>

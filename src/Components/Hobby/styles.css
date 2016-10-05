@@ -11,3 +11,15 @@
 	padding-right: 5%;
 	padding-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  /* line 140, ../sass/grid.scss */
+  .Hobbies p {
+	  font-size: 2.5em;
+		margin: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+		padding-top: 10px;
+  }
+
+}

@@ -1,3 +1,3 @@
 Simple React App Resume
 
-![alt tag](http://imgur.com/a/DlLEo)
+![Resume](http://imgur.com/a/DlLEo)

@@ -1,0 +1,64 @@
+.WorkCompany {
+	display: flex;
+}
+
+.WorkHeader {
+	display: flex;
+}
+
+.WorkHeader h3 {
+	display: flex;
+}
+
+.WorkPosition {
+	padding-top: 13px;
+}
+
+.WorkPosition p {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #bdbdbd;
+	font-size: 0.8em;
+}
+
+.experiences ul {
+	padding-left: 0;
+}
+
+ul.experiences li {
+    position:relative; /* so that pseudoelements are positioned relatively to their "li"s*/
+    /* use padding-bottom instead of margin-bottom.*/ 
+    margin-bottom: 0; /* This overrides previously specified margin-bottom */
+    padding-bottom: 1.0em;
+    font-size: 0.8;
+    text-align: left;
+    list-style-type: disc;
+}
+
+ul.experiences li:after {
+    /* bullets */
+    /*content: url('http://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RedDisc.svg/20px-RedDisc.svg.png');*/
+    position: absolute;
+    left: -26px; /*adjust manually*/
+    top: 0px;
+}
+
+ul.experiences li:before {
+    /* lines */
+    content:"";
+    position: absolute;
+    left: -15px; /* adjust manually */
+    border-left: 1px solid #696969;
+    height: 100%;
+    width: 1.2px;
+}
+
+ul.experiences li:first-child:before {
+   /* first li's line */
+   top: 9px; /* moves the line down so that it disappears under the bullet. Adjust manually */
+}
+
+ul.experiences li:last-child:before {
+    /* last li's line */
+   height: 7px; /* shorten the line so it goes only up to the bullet. Is equal to first-child:before's top */
+}

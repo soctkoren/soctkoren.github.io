@@ -1,0 +1,31 @@
+.SkillsContainer {
+	display: flex;
+}
+
+.railsLogo {
+	padding-top: 25px;
+	max-width: 60%;
+	max-height: 60%;
+}
+
+.sinatra {
+	padding-top: 24px;
+/*	max-width: 90%;
+	max-height: 90%;*/
+}
+
+.ruby {
+	padding-top: 23px;
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.javascript {
+	padding-top: 22px;
+	max-width: 80%;
+	max-height: 80%;
+}
+
+.Skills p {
+	/*margin-top: 0;*/
+}

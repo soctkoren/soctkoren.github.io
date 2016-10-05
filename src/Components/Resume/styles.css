@@ -3,11 +3,29 @@
 }
 
 .resume {
-		height: 1200px;
+		height: 2000px;
 		background-color: #f6f6f6;
 	  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 	  padding-top: 8%;
 	  margin-bottom: 10%;
 	  padding-left: 4%;
 	  padding-right: 4%;
+}
+
+@media screen and (max-width: 1000px) {
+  /* line 111, ../sass/grid.scss */
+  .resume {
+    height: 3000px; }
+}
+
+@media screen and (max-width: 992px) {
+
+  .resume {
+    height: 3000px; }
+}
+@media screen and (max-width: 768px) {
+  /* line 140, ../sass/grid.scss */
+  .resume {
+    height: 3000px; }
+
 }

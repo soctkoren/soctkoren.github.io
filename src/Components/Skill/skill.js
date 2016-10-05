@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../../logo.svg';
-import railslogo from '../../../public/rails.png';
-import sinatra from '../../../public/sinatra.png';
-import ruby from '../../../public/ruby.png';
-import javascript from '../../../public/javascript.png';
+import railslogo from '../../../public/assets/rails.png';
+import sinatra from '../../../public/assets/sinatra.png';
+import ruby from '../../../public/assets/ruby.png';
+import javascript from '../../../public/assets/javascript.png';
 import '../../App.css';
 import './styles.css';
 

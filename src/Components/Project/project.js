@@ -2,13 +2,13 @@ import React from 'react';
 import ProjectDetails from './projectdetails.js';
 import d from '../../resume.json';
 import './styles.css'
-import novelist from '../../../public/novelist.png';
-import dear from '../../../public/dearally.png';
-import foodie from '../../../public/foodie.png';
-import matador from '../../../public/matador.png';
-import partner from '../../../public/thepartner.png';
-import watch from '../../../public/thewatch.png';
-import secret from '../../../public/secret.png';
+import novelist from '../../../public/assets/novelist.png';
+import dear from '../../../public/assets/dearally.png';
+import foodie from '../../../public/assets/foodie.png';
+import matador from '../../../public/assets/matador.png';
+import partner from '../../../public/assets/thepartner.png';
+import watch from '../../../public/assets/thewatch.png';
+import secret from '../../../public/assets/secret.png';
 
 const Project = React.createClass({
 	getInitialState() {

@@ -42,7 +42,7 @@ const Project = React.createClass({
 						<a href={link}><img src={img}/></a>
 					</div>	
 					<div className="CardContent">
-						<span className="CardName">{card.name}: </span>{card.description}
+						<span className="CardName">{card.name} </span>{card.description}
 					</div>
 				</div>
 			)

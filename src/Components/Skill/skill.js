@@ -2,8 +2,9 @@ import React from 'react';
 import logo from '../../logo.svg';
 import railslogo from '../../../public/assets/rails.png';
 import sinatra from '../../../public/assets/sinatra.png';
-import ruby from '../../../public/assets/ruby.png';
 import javascript from '../../../public/assets/javascript.png';
+import octocat from '../../../public/assets/Octocat.png';
+import node from '../../../public/assets/node.png';
 import '../../App.css';
 import './styles.css';
 
@@ -14,8 +15,8 @@ const Skill = React.createClass({
 				<h3 className="Title">Skills</h3>
 				<div className='SkillsContainer'>
 					<div className='Skills'>
-						<img src={ruby} className="ruby" alt="ruby"/>
-						<p>ruby</p>
+						<img src={octocat} className="git" alt="git"/>
+						<p>Git</p>
 					</div>
 					<div className='Skills'>
 						<img src={sinatra} className="sinatra" alt="sinatra"/>
@@ -30,8 +31,8 @@ const Skill = React.createClass({
 						<p>Rails</p>
 					</div>
 					<div className='Skills'>
-						<img src={javascript} className="javascript" alt="javascript"/>
-						<p>JS</p>
+						<img src={node} className="node" alt="node"/>
+						<p>Node</p>
 					</div>
 				</div>
 			</div>

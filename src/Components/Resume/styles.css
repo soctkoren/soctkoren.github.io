@@ -15,17 +15,30 @@
 @media screen and (max-width: 1000px) {
   /* line 111, ../sass/grid.scss */
   .resume {
-    height: 3000px; }
+    height: 2000px; }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 999px) {
 
   .resume {
-    height: 3000px; }
+    height: 2700px; }
+}
+@media screen and (max-width: 740px) {
+  /* line 140, ../sass/grid.scss */
+  .resume {
+    height: 2800px; }
+
 }
 @media screen and (max-width: 768px) {
   /* line 140, ../sass/grid.scss */
   .resume {
-    height: 3000px; }
+    height: 2800px; }
+
+}
+
+@media screen and (max-width: 758px) {
+  /* line 140, ../sass/grid.scss */
+  .resume {
+    height: 3200px; }
 
 }

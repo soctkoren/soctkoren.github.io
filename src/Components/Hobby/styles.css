@@ -1,0 +1,13 @@
+.Hobbies {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+}
+
+.Hobbies p {
+	font-size: 3.7em;
+	margin: 0;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 10px;
+}

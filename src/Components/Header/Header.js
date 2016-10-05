@@ -9,7 +9,7 @@ const Header = React.createClass ({
 		return (
 			<div className="row headerContainer">
 				<div className="col-3 headerName">
-					<h3>{d.basics.name}</h3>
+					<span className="splash"><h3>{d.basics.name}</h3></span>
 					<p className="offseg">{d.basics.label}</p>
 				</div>
 				<div className="col-3 headerAddress">

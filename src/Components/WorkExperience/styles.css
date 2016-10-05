@@ -1,9 +1,11 @@
 .WorkCompany {
 	display: flex;
+    text-align: left;
 }
 
 .WorkHeader {
 	display: flex;
+    text-align: left;
 }
 
 .WorkHeader h3 {
@@ -17,7 +19,7 @@
 .WorkPosition p {
 	margin-top: 0;
 	margin-bottom: 0;
-	color: #848484;
+	/*color: #848484;*/
 	font-size: 0.8em;
 }
 

@@ -21,7 +21,7 @@ var WorkExperience = React.createClass({
 							<h3>{w.company}</h3>
 						</div>
 						<div className="WorkPosition">
-							<p>{w.position}</p>
+							<span className="splash"><p>{w.position}</p></span>
 							<p>{w.startDate} - {w.endDate}</p>
 						</div>
 					</div>

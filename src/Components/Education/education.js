@@ -12,13 +12,13 @@ const Education = React.createClass({
 					{d.education.map(function(edu) {
 						return (
 							<div>
-								<div className="col-5 EduInstitue">
-									<h3>{edu.institution}</h3>
+								<div className="col-12 EduInstitue">
+									<h3 className="col-6">{edu.institution}</h3>
+									<p className="col-6">{edu.area}</p>
 								</div>
 								<div className="EduStart">
-									<div className="col-7 EduStartDes">
-										<p>{edu.area}</p>
-										<p>{edu.startDate} - {edu.endDate}</p>
+									<div className="col-12 EduStartDes">
+										<p>start: {edu.startDate} - end: {edu.endDate}</p>
 									</div>
 								</div>
 							</div>

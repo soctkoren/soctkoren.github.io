@@ -1,7 +1,21 @@
+.EduInstitue {
+	text-align: left;
+	display: flex;
+}
+
 .EduStartDes p {
-	color: #696969;
+	margin-top: 0px;
+	color: #878787;
 }
 
 .EduInstitue h3 {
-	
+	margin-top: 16px;
+	margin-bottom: 2px;
+}
+
+.EduInstitue p {
+	float: right;
+	margin-top: 19px;
+	padding-left: 5px;
+	width: 220px;
 }

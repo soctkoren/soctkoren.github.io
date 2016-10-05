@@ -102,7 +102,7 @@
     {
       "id": "secret",
       "name": "Secret Dot Club",
-      "description": "is a winning project for TechCrunch Distrupt Hackathon 2016. The Secret Dot club uses Esri's geotagging features and IBM Watson Tone Analyzer to give thes users a unique map view of where excited and entertaining areas are",
+      "description": "is a winning project for TechCrunch Hackathon 2016. The Secret Dot club uses Esri's geotagging features and IBM Watson Tone Analyzer to give thes users a unique map view of where excited and entertaining areas are",
       "technology": ["iOS", "ruby-on-rails", "esri", "IBM Watson"],
       "img": "../../../public/assets/secret.png",
       "url": "http://devpost.com/software/secretclient"

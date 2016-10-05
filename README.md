@@ -1,3 +1,3 @@
 Simple React App Resume
 
-![Resume](http://imgur.com/a/DlLEo)
+![Resume](resume.png "John Imyeob Kim - 2016 Resume")

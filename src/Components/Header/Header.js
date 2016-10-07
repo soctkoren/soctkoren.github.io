@@ -47,7 +47,7 @@ const Header = React.createClass ({
 					</div>
 				</div>
 				<div className="col-3 headerWebsite">
-					<a href="https://drive.google.com/file/d/0B2iS0nBJmK9RcFc1djgyZVJ4RVE/view">Download resume</a>
+					<a href="https://drive.google.com/file/d/0B2iS0nBJmK9Rb2d3eFFRNnk3UG8/view?usp=sharing">Download resume</a>
 				</div>
 			</div>
 		);

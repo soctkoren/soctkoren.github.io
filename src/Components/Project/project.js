@@ -9,6 +9,7 @@ import matador from '../../../public/assets/matador.png';
 import partner from '../../../public/assets/thepartner.png';
 import watch from '../../../public/assets/thewatch.png';
 import secret from '../../../public/assets/secret.png';
+import award from '../../../public/assets/award.png';
 
 const Project = React.createClass({
 	getInitialState() {
@@ -38,6 +39,9 @@ const Project = React.createClass({
 
 			var card =  (
 				<div key={card.id} className="col-6 CardDetail">
+					<div>
+						{card.winner === "true" ? <img src={award} className="awardImg"/> : ""}
+					</div>
 					<div className="CardDetailImg">
 						<a href={link}><img src={img}/></a>
 					</div>	

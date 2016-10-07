@@ -22,3 +22,8 @@
 	padding-right: 10px;
 	text-align: justify;
 }
+
+.awardImg {
+	position: absolute;
+	transform: translate(-200px, 10px);
+}

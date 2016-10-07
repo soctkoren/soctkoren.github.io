@@ -31,9 +31,20 @@
 
 .headerContact a:hover 
 {
-     color:#00A0C6; 
-     text-decoration:none; 
-     cursor:pointer;  
+ color:#00A0C6; 
+ text-decoration:none; 
+ cursor:pointer;  
+}
+
+.headerAddress a {
+	color: black;
+  text-decoration: none;
+}
+
+.headerAddress a:hover {
+ color:#00A0C6; 
+ text-decoration:none; 
+ cursor:pointer;  
 }
 
 .headerWebsite p {

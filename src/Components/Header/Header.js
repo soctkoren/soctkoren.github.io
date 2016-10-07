@@ -18,7 +18,7 @@ const Header = React.createClass ({
 						<p>Phone</p>
 					</div>
 					<div className="col-7 offseg">
-						<p>joimkim@gmail.com </p>
+						<a href="mailto:joimkim@gmail.com?subject=Hi John!"><p>joimkim@gmail.com</p></a>
 						<span className="phone"><p>925-337-3551 </p></span>
 					</div>
 				</div>
@@ -48,7 +48,7 @@ const Header = React.createClass ({
 				</div>
 				<div className="col-3 headerWebsite">
 					<p>website</p>
-					<a href="http://soctkoren.github.io"><p className="offseg">http://soctkoren.github.io</p></a>
+					<a href="http://johnimyeobkim.herokuapp.com"><p className="offseg">johnimyeobkim.herokuapp.com</p></a>
 				</div>
 			</div>
 		);
